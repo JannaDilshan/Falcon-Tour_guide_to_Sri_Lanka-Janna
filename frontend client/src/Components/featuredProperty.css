@@ -1,0 +1,65 @@
+.fp {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+
+  }
+ 
+  a {
+    text-decoration: none;
+  }
+  .fullpart .fpItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: inherit;
+  }
+  
+  .fullpart .fpImg{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .fullpart .fpName{
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+   
+   
+    
+  }
+  
+  .fullpart .fpCity{
+    font-weight: 300;
+    text-decoration: none;
+    
+  }
+  
+  .fullpart .fpPrice{
+    font-weight: 500;
+    text-decoration: none;
+   
+    
+  }
+  
+  .fullpart .fpRating>button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .fullpart .fpRating span{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }

@@ -1,0 +1,51 @@
+.register{
+    width: 50%;
+}
+.form{
+    margin-left: 11.5%;
+  
+}
+.register::before{
+       
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 60%;
+    height: 100%;
+    background:linear-gradient(90deg, rgb(255, 255, 255) 0 50%, rgba(255, 255, 255, 0.13) 100% );
+    z-index: 0;
+
+    }
+
+.reg{
+    margin-top: 2%;
+    
+}
+
+.name{
+    display: flex;
+}
+
+.reg input{
+    display: block;
+    font-size: 15px;
+}
+.reg label{
+font-size: 15px;
+}
+.box3{
+    width: 40%;
+    height: 30px;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.image4{
+   height: 103vh;
+    width: 40%;
+    margin-left: 60%;
+    margin-top: -41%;
+    border-radius: 0%;
+}

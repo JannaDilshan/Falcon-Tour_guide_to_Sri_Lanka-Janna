@@ -1,0 +1,126 @@
+.parttext {
+    width: 1320px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.parttext h1 {
+    font-size: 25px;
+}
+
+.parttext h2 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.partItems1 {
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    width: 1300px;
+}
+
+.partItems2 {
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-top: 20px;
+    width: 1320px;
+}
+.partItems3 {
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2px;
+    margin-top: 20px;
+}
+
+.partimg {
+    width: 620px;
+    gap: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.partimg:hover {
+    border: 1px solid gold;
+    margin-left: -0.2%;
+    margin-bottom: -2px;
+}
+
+.partimg1 {
+    width: 400px;
+    gap: 15px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.partimg2 {
+    object-fit: cover;
+    width: 300px;
+}
+
+.partimg1:hover {
+    border: 1px solid gold;
+    margin-left: -0.2%;
+    margin-bottom: -3px;
+}
+.partimg2:hover {
+    border: 1px solid gold;
+    margin-left: -0.2%;
+    margin-bottom: -3px;
+}
+
+.subpart1 h1 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: right;
+    margin-top: -250px;
+    padding-left: 10px;
+}
+
+.subpart1 h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: right;
+    margin-top: -70px;
+    padding-left: 10px;
+}
+
+.subpart1 h2 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: right;
+    margin-top: -40px;
+    padding-left: 10px;
+}
+
+.subpart2 h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: right;
+    margin-top: -70px;
+    padding-left: 10px;
+}
+
+.subpart2 h2 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: right;
+    margin-top: -40px;
+    padding-left: 10px;
+}

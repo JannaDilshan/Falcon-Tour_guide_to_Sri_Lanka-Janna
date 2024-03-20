@@ -1,0 +1,47 @@
+.header1 {
+  padding: 30px 0; /* Example padding */
+  text-align: center; /* Center align the content */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center align the buttons horizontally */
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+}
+
+.header-button {
+  margin: 5px; /* Add margin between buttons */
+  padding: 10px 20px; /* Example padding */
+  background-color: #ccc; /* Example button color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content-container {
+  background-color: #f0f0f0; /* Example background color */
+  padding: 20px; /* Example padding */
+  border-radius: 5px; /* Example border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.carousel-container {
+  margin-bottom: 20px; /* Add margin bottom to create space between carousel and content */
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column; 
+    align-items: center; /* Center align the buttons vertically */
+   
+  }
+
+  .header-button {
+    flex-basis: 45%; /* Set flex basis to create two columns */
+    margin: 5px; /* Add margin between buttons */
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+}

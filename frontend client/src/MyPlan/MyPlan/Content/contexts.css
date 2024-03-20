@@ -1,0 +1,166 @@
+.content {
+  padding: 10px;
+}
+
+.content-button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3cd64b;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: #2d0b91;
+}
+
+.content_trips {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align the content */
+  border: none;
+  margin-top: 30px;
+  background-color: #dfe2e0;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.503); /* Add box shadow */
+  padding: 20px; /* Add padding to create space around content */
+  border-radius: 20px; /* Add border radius for rounded corners */
+  width: 60%;
+  height: 160px;
+}
+
+.con1-img {
+  width: 200px; /* Make the image responsive */
+  height: 130px; /* Maintain aspect ratio */
+  padding: 20px;
+}
+
+.trip-text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_trips h2 {
+  margin-top: 5px; /* Add margin between image and topic */
+  font-size: 24px; /* Example font size for topic */
+}
+
+.sub-hedding-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content_trips p {
+  margin-top: 10px; /* Add margin between topic and text */
+  font-size: 16px; /* Example font size for text */
+}
+
+/* End  */
+
+.pre-trip{
+    margin-top: 5rem;
+    margin: 20px;
+    padding: 30px;
+    
+
+}
+.tripCard{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.t-card{
+    width: 30%;
+    background: #e1dfe7;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(32, 185, 227);
+
+}
+.tripImg{
+    width: 300px;    
+}
+.more-trip{
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center; /* Center align the buttons vertically */
+  }
+
+  .header-button {
+    flex-basis: 45%; /* Set flex basis to create two columns */
+    margin: 5px; /* Add margin between buttons */
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+
+  .con1-img {
+    width: 8rem;
+    height: 7rem;
+  }
+  .content_trips {
+    justify-content: center;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align the content */
+    border: none;
+    margin-top: 30px;
+    background-color: #dfe2e0;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.503); /* Add box shadow */
+    padding: 20px; /* Add padding to create space around content */
+    border-radius: 20px; /* Add border radius for rounded corners */
+    width: 80%;
+    height: 160px;
+  }
+  .content_trips h2 {
+    margin-top: 5px; /* Add margin between image and topic */
+    font-size: 20px; /* Example font size for topic */
+  }
+  .sub-hedding-content {
+    font-size: 14px;
+  }
+
+  .content_trips p {
+    margin-top: 5px; /* Add margin between topic and text */
+    font-size: 14px; /* Example font size for text */
+  }
+
+
+.tripCard{
+    display: block;
+    margin: 3rem 2rem;
+    
+}
+.t-card{
+    margin-top: 50px;
+    width: 100%;
+    background: #e1dfe7;
+    padding-top: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(32, 185, 227);
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.503);
+
+}
+.tripImg{
+    width: 70%;    
+}
+.more-trip{
+    text-align: center;
+}
+}
